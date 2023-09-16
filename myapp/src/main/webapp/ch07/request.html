@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>데이터 요청</title>
+</head>
+<body>
+<h1>Request Example</h1>
+<form method="post" action="request1.jsp">
+<table>
+	<tr>
+		<td>성명</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>학번</td>
+		<td><input type="number" name="studentNum">
+	</tr>
+	<tr>
+		<td>성별</td>
+		<td><input type="radio" name="gender" value="man" checked />
+			<input type="radio" name="gender" value="woman" />
+		</td>
+	</tr>
+	<tr>
+		<td>전공</td>
+		<td><select name="major">
+			<option selected value="국문학과">국문학과</option>
+			<option value="영문학과">영문학과</option>
+			<option value="수학과">수학과</option>
+		</select>
+		</td>
+	</tr>
+	<tr colspan="2">
+		<input type="submit" value="보내기" />
+	</tr>
+</table>
+	
+</form>
+</body>
+</html>
